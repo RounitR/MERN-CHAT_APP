@@ -52,7 +52,7 @@ A modern, full-stack real-time chat application built with the MERN stack, featu
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-app-url.railway.app)
+[View Live Demo](https://your-app-name.railway.app)
 
 ## 📦 Installation & Setup
 
@@ -179,33 +179,7 @@ chat-app/
 - `GET /api/messages/:userId` - Get messages with specific user
 - `POST /api/messages/send/:userId` - Send message to user
 
-## 🌐 Deployment
 
-### Railway Deployment (Recommended)
-
-1. **Connect to Railway**
-
-   - Go to [Railway](https://railway.app)
-   - Connect your GitHub repository
-   - Create a new project
-
-2. **Set Environment Variables**
-
-   - Add all environment variables from your `.env` file
-   - Set `NODE_ENV=production`
-   - Update `FRONTEND_URL` to your production domain
-
-3. **Deploy**
-   - Railway will automatically build and deploy your app
-   - Set build command: `npm run build`
-   - Set start command: `npm run start --prefix backend`
-
-### Alternative Deployment Options
-
-- **Vercel + Railway**: Frontend on Vercel, Backend on Railway
-- **Render**: Full-stack deployment
-- **Heroku**: Traditional deployment
-- **Docker**: Containerized deployment
 
 ## 🔒 Security Features
 
@@ -233,6 +207,35 @@ chat-app/
 - **Caching** - Improved load times
 - **CDN** - Cloudinary for fast image delivery
 
+## 🚀 Deployment
+
+### Render Deployment (Recommended - Free Forever)
+
+1. **Create Render Account**: Visit [Render](https://render.com) and sign up with GitHub
+2. **New Web Service**: Click "New +" → "Web Service"
+3. **Connect Repository**: Connect your GitHub repository
+4. **Configure Service**:
+   - **Name**: `mern-chat-app`
+   - **Environment**: `Node`
+   - **Build Command**: `npm run build`
+   - **Start Command**: `npm run start --prefix backend`
+5. **Environment Variables**: Add these variables:
+   - `MONGODB_URI`
+   - `JWT_SECRET`
+   - `CLOUDINARY_CLOUD_NAME`
+   - `CLOUDINARY_API_KEY`
+   - `CLOUDINARY_API_SECRET`
+   - `NODE_ENV=production`
+   - `FRONTEND_URL` (your Render app URL)
+6. **Deploy**: Click "Create Web Service"
+
+### Alternative Free Hosting Options
+
+- **Vercel + Railway**: Frontend on Vercel (free), backend on Railway (30-day trial)
+- **Netlify + Render**: Frontend on Netlify (free), backend on Render (free)
+- **Cyclic**: Full-stack deployment (free tier available)
+- **Railway**: 30-day free trial, then paid
+
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -255,7 +258,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-If you have any questions or need help, please open an issue on GitHub or contact me at [your-email@example.com]
+If you have any questions or need help, please open an issue on GitHub or contact me at [rhcards007@example.com]
 
 ---
 

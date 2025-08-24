@@ -1,0 +1,10 @@
+# Copy and paste these into Railway Variables tab:
+
+MONGODB_URI=mongodb+srv://chat-app-user:sec3b365@cluster0.wkmn9zb.mongodb.net/chat-app?retryWrites=true&w=majority&appName=Cluster0
+PORT=5001
+NODE_ENV=production
+JWT_SECRET=962e11c477adea6738471faf0414b8485da0de5002f2bfec0a41ea36a19ef29c72dc473f27e4d066f7d364999e82fa7b36e9e4e494134284800cba8fbeb771e0
+CLOUDINARY_CLOUD_NAME=dltigkgry
+CLOUDINARY_API_KEY=433553191343515
+CLOUDINARY_API_SECRET=s5PXw9d8vxKmw2d8LQl9PNM3DTw
+FRONTEND_URL=https://your-app-name.railway.app

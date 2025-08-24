@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: mern-chat-app
+    env: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm run start --prefix backend
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: CLOUDINARY_CLOUD_NAME
+        sync: false
+      - key: CLOUDINARY_API_KEY
+        sync: false
+      - key: CLOUDINARY_API_SECRET
+        sync: false
+      - key: FRONTEND_URL
+        sync: false
