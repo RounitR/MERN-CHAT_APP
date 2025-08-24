@@ -2,7 +2,8 @@
 
 A modern, full-stack real-time chat application built with the MERN stack, featuring instant messaging, file sharing, and user authentication.
 
-![Chat App Demo](frontend/public/screenshot-for-readme.png)
+![Chat App Demo](frontend/public/image1.png)
+![Chat App Demo](frontend/public/image2.png)
 
 ## ✨ Features
 
@@ -52,7 +53,7 @@ A modern, full-stack real-time chat application built with the MERN stack, featu
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-app-name.railway.app)
+[View Live Demo](https://mern-chat-app-a2ws.onrender.com/login)
 
 ## 📦 Installation & Setup
 
