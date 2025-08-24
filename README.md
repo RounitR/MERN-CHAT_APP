@@ -87,6 +87,8 @@ npm install --prefix frontend
 
 Create a `.env` file in the `backend` directory:
 
+**⚠️ SECURITY WARNING**: Never commit your actual API keys to GitHub. Use placeholder values in your `.env` file and keep your real credentials secure.
+
 ```env
 # Database Configuration
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/chat-app?retryWrites=true&w=majority
